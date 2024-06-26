@@ -94,7 +94,7 @@ namespace LabAspApi.Controllers
         [HttpOptions]
         public IActionResult Options()
         {
-            Response.Headers.Append("Allow", "GET,POST,PUT,PATCH,DELETE,OPTIONS,HEAD");
+            Response.Headers.Add("Allow", "GET,POST,PUT,PATCH,DELETE,OPTIONS,HEAD");
             return Ok();
         }
 
