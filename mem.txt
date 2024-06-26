@@ -1,0 +1,22 @@
+### LabAspRestApi0
+
+# ASP.NET Core Web API(NET 8.0)에서 RESTful API MVC의 Models/Controllers만 이용한 통신 연구
+- Base Resource
+- MSSQL
+- TCP/IP
+① Hex Protocol : MX Component | XG5000
+② Sockets
+- Serial Port
+① PCI RS232/485
+② Modbus
+③ USB
+
+# API 프로젝트 생성 시 컨트롤러 사용 외 나머지 구성 항목 선택 X
+- IIS Express 프로필 사용 X
+- https 프로필은 Production 환경 때 생성
+
+# 클라이언트 앱은 WinForms(NetFramework 4.8)
+- DevExpress
+
+# WS 22 OS에서 Docker 이미지/Compose 구동
+- Azure DevOps Pipeline | Git Action CI/CD 테스트
