@@ -1,3 +1,6 @@
+using System.Data;
+using Microsoft.Data.SqlClient;
+
 var builder = WebApplication.CreateBuilder(args);
 
 // builder.Services.AddCors(options =>
@@ -11,6 +14,9 @@ var builder = WebApplication.CreateBuilder(args);
 // });
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<IDbConnection>(sp => new SqlConnection(
+    builder.Configuration.GetConnectionString("DefaultConnection")));
+
 var app = builder.Build();
 
 if (!app.Environment.IsDevelopment())

@@ -3,12 +3,28 @@
   "WorkspaceRootPath": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|c:\\dev\\_lab\\labasprestapi0\\labwinformapp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|c:\\dev\\_lab\\labasprestapi0\\labwinformapp\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|c:\\dev\\_lab\\labasprestapi0\\labwinformapp\\api\\services\\testservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|solutionrelative:api\\services\\testservice .cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|c:\\dev\\_lab\\labasprestapi0\\labwinformapp\\forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|solutionrelative:forms\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|c:\\dev\\_lab\\labasprestapi0\\labwinformapp\\api\\services\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|solutionrelative:api\\services\\productsservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|c:\\dev\\_lab\\labasprestapi0\\labwinformapp\\api\\models\\testentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|solutionrelative:api\\models\\testentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|c:\\dev\\_lab\\labasprestapi0\\labwinformapp\\api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|solutionrelative:api\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D5DB65F-60BA-4421-808F-D842E8098BA9}|LabWinformApp.csproj|C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,43 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs [\uB514\uC790\uC778]",
+              "DocumentMoniker": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Forms\\Form1.cs",
+              "RelativeDocumentMoniker": "Forms\\Form1.cs",
+              "ToolTip": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Forms\\Form1.cs [\uB514\uC790\uC778]",
+              "RelativeToolTip": "Forms\\Form1.cs [\uB514\uC790\uC778]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T05:10:31.908Z",
+              "EditorCaption": " [\uB514\uC790\uC778]"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Form1.cs",
-              "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAACwAAAAAAAAAAAAwwCYAAAA/AAAA",
+              "DocumentMoniker": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Forms\\Form1.cs",
+              "RelativeDocumentMoniker": "Forms\\Form1.cs",
+              "ToolTip": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Forms\\Form1.cs",
+              "RelativeToolTip": "Forms\\Form1.cs",
+              "ViewState": "AQIAACwAAAAAAAAAAADwvzYAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-06-24T16:07:00.09Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
+              "Title": "TestService .cs",
+              "DocumentMoniker": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Api\\Services\\TestService .cs",
+              "RelativeDocumentMoniker": "Api\\Services\\TestService .cs",
+              "ToolTip": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Api\\Services\\TestService .cs",
+              "RelativeToolTip": "Api\\Services\\TestService .cs",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAuwBgAAABmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T04:49:56.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "TestEntity.cs",
+              "DocumentMoniker": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Api\\Models\\TestEntity.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\TestEntity.cs",
+              "ToolTip": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Api\\Models\\TestEntity.cs",
+              "RelativeToolTip": "Api\\Models\\TestEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T04:39:38.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductsService.cs",
+              "DocumentMoniker": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Api\\Services\\ProductsService.cs",
+              "RelativeDocumentMoniker": "Api\\Services\\ProductsService.cs",
+              "ToolTip": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Api\\Services\\ProductsService.cs",
+              "RelativeToolTip": "Api\\Services\\ProductsService.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAADwvyMAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T04:23:37.185Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Product.cs",
+              "DocumentMoniker": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Api\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Api\\Models\\Product.cs",
+              "ToolTip": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Api\\Models\\Product.cs",
+              "RelativeToolTip": "Api\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-12T04:22:56.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAEAAAAAAAAAAAAqwA0AAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAATAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T16:06:57.981Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Form1.cs [\uB514\uC790\uC778]",
-              "DocumentMoniker": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Form1.cs",
-              "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\dev\\_lab\\LabAspRestApi0\\LabWinformApp\\Form1.cs [\uB514\uC790\uC778]",
-              "RelativeToolTip": "Form1.cs [\uB514\uC790\uC778]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-24T15:59:22.886Z"
+              "WhenOpened": "2024-06-24T16:06:57.981Z",
+              "EditorCaption": ""
             }
           ]
         }

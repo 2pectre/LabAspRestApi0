@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
 using LabAspApi.Models;
+using LabAspApi.Services;
 using System.Collections.Generic;
 
 namespace LabAspApi.Controllers
@@ -8,86 +9,64 @@ namespace LabAspApi.Controllers
     [ApiController]
     public class ProductsController : ControllerBase
     {
-        private static List<Product> products = new List<Product>
+        private readonly ProductsService _productsService;
+
+        public ProductsController()
         {
-            new Product { Id = 1, Name = "Product1", Price = 10.0m },
-            new Product { Id = 2, Name = "Product2", Price = 20.0m },
-            new Product { Id = 333, Name = "Product3", Price = 123.0m },
-            new Product { Id = 4444, Name = "Product4", Price = 456.0m },
-            new Product { Id = 55555, Name = "Product5", Price = 9999.0m },
-            new Product { Id = 9, Name = "Test", Price = 987654.0m }
-        };
+            _productsService = new ProductsService();
+        }
 
         [HttpGet]
         public ActionResult<IEnumerable<Product>> Get()
         {
-            return products;
+            return Ok(_productsService.GetAllProducts());
         }
 
         [HttpGet("{id}")]
         public ActionResult<Product> Get(int id)
         {
-            var product = products.FirstOrDefault(p => p.Id == id);
+            var product = _productsService.GetProductById(id);
             if (product == null)
             {
                 return NotFound();
             }
-            return product;
+            return Ok(product);
         }
 
         [HttpPost]
         public ActionResult<Product> Post(Product product)
         {
-            products.Add(product);
+            _productsService.AddProduct(product);
             return CreatedAtAction(nameof(Get), new { id = product.Id }, product);
         }
 
         [HttpPut("{id}")]
         public IActionResult Put(int id, Product product)
         {
-            var existingProduct = products.FirstOrDefault(p => p.Id == id);
-            if (existingProduct == null)
+            if (!_productsService.UpdateProduct(id, product))
             {
                 return NotFound();
             }
-            existingProduct.Name = product.Name;
-            existingProduct.Price = product.Price;
             return NoContent();
         }
 
         [HttpDelete("{id}")]
         public IActionResult Delete(int id)
         {
-            var product = products.FirstOrDefault(p => p.Id == id);
-            if (product == null)
+            if (!_productsService.DeleteProduct(id))
             {
                 return NotFound();
             }
-            products.Remove(product);
             return NoContent();
         }
-
-        // > --------------------------------------------------
 
         [HttpPatch("{id}")]
         public IActionResult Patch(int id, [FromBody] Product updatedFields)
         {
-            var existingProduct = products.FirstOrDefault(p => p.Id == id);
-            if (existingProduct == null)
+            if (!_productsService.PatchProduct(id, updatedFields))
             {
                 return NotFound();
             }
-
-            if (!string.IsNullOrEmpty(updatedFields.Name))
-            {
-                existingProduct.Name = updatedFields.Name;
-            }
-
-            if (updatedFields.Price != default)
-            {
-                existingProduct.Price = updatedFields.Price;
-            }
-
             return NoContent();
         }
 
@@ -101,7 +80,7 @@ namespace LabAspApi.Controllers
         [HttpHead("{id}")]
         public IActionResult Head(int id)
         {
-            var product = products.FirstOrDefault(p => p.Id == id);
+            var product = _productsService.GetProductById(id);
             if (product == null)
             {
                 return NotFound();
