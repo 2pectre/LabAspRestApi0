@@ -11,9 +11,9 @@ namespace LabAspApi.Controllers
     {
         private readonly ProductsService _productsService;
 
-        public ProductsController()
+        public ProductsController(ProductsService productsService)
         {
-            _productsService = new ProductsService();
+            _productsService = productsService;
         }
 
         [HttpGet]

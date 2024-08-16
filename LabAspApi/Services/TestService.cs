@@ -15,13 +15,13 @@ namespace LabAspApi.Services
             _db = db;
         }
 
-        public async Task<IEnumerable<TestEntity>> GetTestsAsync()
+        public async Task<IEnumerable<dynamic>> GetTestsAsync()
         {
             var sql = "SELECT * FROM TB_TEST";
-            return await _db.QueryAsync<TestEntity>(sql);
+            return await _db.QueryAsync<dynamic>(sql);
         }
 
-        public async Task<TestEntity> GetTestAsync(int id)
+        public async Task<TestEntity?> GetTestAsync(int id)
         {
             var sql = "SELECT * FROM TB_TEST WHERE Id = @Id";
             return await _db.QueryFirstOrDefaultAsync<TestEntity>(sql, new { Id = id });

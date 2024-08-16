@@ -19,7 +19,7 @@ namespace LabAspApi.Controllers
 
         // GET: api/test
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<TestEntity>>> GetTests()
+        public async Task<ActionResult<IEnumerable<dynamic>>> GetTests()
         {
             var result = await _testService.GetTestsAsync();
             return Ok(result);

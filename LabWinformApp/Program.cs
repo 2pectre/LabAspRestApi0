@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net.Http;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
@@ -8,9 +9,8 @@ namespace LabWinformApp
 {
     internal static class Program
     {
-        /// <summary>
-        /// 해당 애플리케이션의 주 진입점입니다.
-        /// </summary>
+        public static readonly HttpClient HttpClient = new HttpClient();
+
         [STAThread]
         static void Main()
         {

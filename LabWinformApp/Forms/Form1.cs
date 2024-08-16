@@ -15,7 +15,8 @@ namespace LabWinformApp
         public Form1()
         {
             InitializeComponent();
-            _productsService = new ProductsService(new HttpClient());
+            _testService = new TestService(Program.HttpClient);
+            _productsService = new ProductsService(Program.HttpClient);
         }
 
         private async void btnGetTestById_Click(object sender, EventArgs e)
