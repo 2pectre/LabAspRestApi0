@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "6gUB5Wd57y0=",
+  "dgSpecHash": "ivyXH3eFB4Q=",
   "success": true,
-  "projectFilePath": "c:\\dev\\_lab\\LabAspRestApi0\\LabAspApi\\LabAspApi.csproj",
+  "projectFilePath": "C:\\dev\\_lab\\LabAspRestApi0\\LabAspApi\\LabAspApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\2PECTRE\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\2PECTRE\\.nuget\\packages\\azure.identity\\1.11.3\\azure.identity.1.11.3.nupkg.sha512",

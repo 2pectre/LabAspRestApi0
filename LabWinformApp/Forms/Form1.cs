@@ -51,7 +51,6 @@ namespace LabWinformApp
             }
         }
 
-
         private async void btnGetTests_Click(object sender, EventArgs e)
         {
             try
